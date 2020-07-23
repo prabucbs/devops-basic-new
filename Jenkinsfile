@@ -7,6 +7,13 @@ pipeline {
     }
 
     stages {
+
+        stage('sonar') {
+            steps {
+                sh label: '', script: 'mvn clean package sonar:sonar'
+            }
+
+        
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
