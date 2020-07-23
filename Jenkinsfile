@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh label: '', script: 'mvn clean package sonar:sonar'
             }
-
+        }
         
         stage('Build') {
             steps {
