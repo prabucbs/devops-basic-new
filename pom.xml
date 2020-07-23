@@ -8,6 +8,13 @@
   <name>Indian States - Districts</name>
   <url>https://thinknyx.com</url>
 	
+<properties>
+  <sonar.projectKey>prabucbs_devops-basic-new</sonar.projectKey>
+  <sonar.organization>prabucbs</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>184c750d348e917dd4cb601b8598872c8d4bc00d</sonar.login>
+</properties>
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
